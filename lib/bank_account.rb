@@ -17,13 +17,13 @@ class BankAccount
     p "Your balance is $#{self.balance}."
   end
 
-  def status=(status)
-    @status
-  end
+  # def status=(status)
+  #   @status
+  # end
 
-  def balance=(balance)
-    @balance
-  end
+  # def balance=(balance)
+  #   @balance
+  # end
 
   def valid?
     if @status == "open" && @balance > 0
